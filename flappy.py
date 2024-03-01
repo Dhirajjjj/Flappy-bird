@@ -25,18 +25,19 @@ i = 0        #stops the spacebar event to repeat itself also does other stuff
 clock = 0    #global time counter
 
 #images
-background_img = ImageTk.PhotoImage(Image.open("flappy_sky_bgv2.png"))
-cloud_img = ImageTk.PhotoImage(Image.open("flappy_cloud.png"))
-flappy_img = ImageTk.PhotoImage(Image.open("flappy_birdv3.png"))
-start_img = ImageTk.PhotoImage(Image.open("start_textv2.png"))
-wall_img = ImageTk.PhotoImage(Image.open("wall_imgv3.png"))
-ded_txt_img = ImageTk.PhotoImage(Image.open("ded_txtv1.png"))
-score_txt_img = ImageTk.PhotoImage(Image.open("score_txtv1.png"))
-login_bg_img = ImageTk.PhotoImage(Image.open("login_bgv2.png"))
-login_btn_img = ImageTk.PhotoImage(Image.open("login_btn_img.png"))
-score_btn_img = ImageTk.PhotoImage(Image.open("score_btn_img.png"))
-enter_btn_img = ImageTk.PhotoImage(Image.open("enter_btn_img.png"))
-back_btn_img = ImageTk.PhotoImage(Image.open("back_btn_img.png"))
+background_img = ImageTk.PhotoImage(Image.open("assets/flappy_sky_bgv2.png"))
+cloud_img = ImageTk.PhotoImage(Image.open("assets/flappy_cloud.png"))
+flappy_img = ImageTk.PhotoImage(Image.open("assets/flappy_birdv3.png"))
+start_img = ImageTk.PhotoImage(Image.open("assets/start_textv22.png"))
+wall_img = ImageTk.PhotoImage(Image.open("assets/wall_imgv3.png"))
+# ded_txt_img = ImageTk.PhotoImage(Image.open("ded_txtv1.png"))
+ded_txt_img = ImageTk.PhotoImage(Image.open("assets/start_textv22.png"))
+score_txt_img = ImageTk.PhotoImage(Image.open("assets/score_txtv1.png"))
+login_bg_img = ImageTk.PhotoImage(Image.open("assets/login_bgv2.png"))
+login_btn_img = ImageTk.PhotoImage(Image.open("assets/login_btn_img.png"))
+score_btn_img = ImageTk.PhotoImage(Image.open("assets/score_btn_img.png"))
+enter_btn_img = ImageTk.PhotoImage(Image.open("assets/enter_btn_img.png"))
+back_btn_img = ImageTk.PhotoImage(Image.open("assets/back_btn_img.png"))
 
 canvas = tkinter.Canvas(master = root, bg="grey", width=400, height=500)
 canvas.pack(fill = "both", expand = True)
@@ -346,9 +347,6 @@ highscore_btn.place(x=50, y=250)
 root.mainloop()
 
 
-#FF9800 orange (login)
-#FFC107 golden (login) 
-#84fff skyblue (back)
-
-
-
+# #FF9800 orange (login)
+# #FFC107 golden (login) 
+# #84fff skyblue (back)
