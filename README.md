@@ -37,3 +37,5 @@ Flappy bird mobile application game recreated in python using in-build dependenc
  - Multiplayer mode
  - Global highscores and competitions
  - Various game modes [inverted, blind, ablities]
+
+![image](https://github.com/Dhirajjjj/Flappy-bird/assets/69754979/1a325cad-a6a9-4ce8-a51e-b0ffd1f2705f)
